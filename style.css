@@ -83,8 +83,8 @@ ul {
 
 /* Header style */
 header {
-    background-color: #000;
-    color: rgb(212, 74, 97);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -134,7 +134,7 @@ nav .nav_logo a{
 }
 
 .navbar ul li a{
-    color: yellow;
+    color: rgb(7, 7, 7);
     padding: 10px 25px;
     font-size: 18px;
     font-weight: 500;
@@ -236,6 +236,14 @@ nav ul li a:hover {
     color: white;
 }
 
+#wardrobe p{
+    color: white;
+}
+
+#wardrobe h3{
+    color: white;
+}
+
 #collection p {
     text-align: center;
     margin-bottom: 40px;
@@ -247,6 +255,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
 }
 
 .gallery_items {
@@ -256,7 +265,7 @@ nav ul li a:hover {
 
 .gallery_items img {
     width: 100%;
-    height: auto;
+    height: 250px;
     border-radius: 8px;
 }
 
